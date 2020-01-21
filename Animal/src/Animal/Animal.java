@@ -26,5 +26,10 @@ public abstract class Animal {
         c.eat();
         d.sleep();
         c.sleep();
+
+        // Casting
+        Object dog = new Dog();
+        Dog realDog = (Dog) dog;
+        realDog.ruff();
     }
 }
