@@ -8,6 +8,10 @@ public class Enemy implements Character{
 
     }
 
+    public String getWeapon() {
+        return weapon;
+    }
+
     public void attack() {
         System.out.println("The enemy attacks You!");
 
